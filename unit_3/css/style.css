@@ -58,7 +58,8 @@ p, ul {
 
 hr {
 	width: 200px;
-	height: 2px;
+	height: 1px;
+	position: relative;
 }
 ul{
 	text-align: center;
