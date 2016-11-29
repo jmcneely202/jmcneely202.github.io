@@ -3,17 +3,21 @@
 /*font-family: 'Old Standard TT', serif;
 font-family: 'Playfair Display SC', serif; .main_title*/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 /*font-family: 'Montserrat', sans-serif; .support_copy*/
 
 /*body {
-	background-image: url("images/pexels-black-white-deskitems-photo.jpg");
+	background-image: url("../images/pexels-black-white-deskitems-photo.jpg");
 	background-size: cover;
 }*/
 
 body {
 	background-image: url("images/pexels-black-white-deskitems-photo-edited.jpg");
 	background-size: cover;
+	color: #515F61;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
 }
 
 h1 {
@@ -22,71 +26,30 @@ h1 {
 	font-family: 'Old Standard TT', serif;
 	font-weight: bold;
 	font-size: 66px;
-	position: relative;
 }
 
 .main_title {
-	position: relative;
-    left: 0;
-    top: 75%;
     width: 100%;
     text-align: center;
 }
 
-.support_copy {
-	position: relative;
-    bottom: 15%;
-    left: 16px;
-    font-size: 18px;
-}
-
-.nav_bar {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', Helvetica, sans-serif;
-    position: relative;
-    top: -40px;
- }
-
-.nav_bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    float: right;
-  /*  border: 1px solid #e7e7e7;*/
-}
-
-.nav_bar li {
+nav {
     float: right;
 }
-
-.nav_bar li a {
-    display: inline;
+nav a {
+    display: inline-block;
     padding: 8px;
   /*  background-color: #dddddd;*/
     color: #971f41;
     text-decoration: none;
-
 }
 
 p {
-	color: #515F61;
-	font-family: 'Montserrat', Helvetica, sans-serif;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 1.5em;
 	margin: 1.5em;
-	text-indent: 40px;
 }
 
 ul {
-	color: #515F61;
-	font-family: 'Montserrat', Helvetica, sans-serif;
 	font-weight: bold;
-	font-size: 16px;
-	line-height: 1.5em;
 	margin: 1.5em;
 	text-align: center;
 	list-style-type: none;
@@ -97,40 +60,22 @@ ul {
 	text-align: center;
 	font-size: 32px;
 	font-family: 'Old Standard TT', serif;
-	position: relative;
 	/*float: right;*/
-    /*left: 0%;
+	/*left: 0%;
    /* top: 0%;*/
-    /*width: 100%;*/
-    text-align: center;
-    top: 40px;
-    left: 150px;
+	/*width: 100%;*/
+	text-align: center;
+	clear: both;
 }
 
 #contact {
 	text-decoration: none;
 	color: #971f41;
-	font-family: Helvetica;
 	font-weight: bold;
-	position: absolute;
-	bottom: 10%;
-	right: 43%;
 	border: 3px solid #971f41;
 	border-radius: 5px;
 	padding: 3px;
     width: 120px;
     border-width: 2px;
-    margin: center;
     text-align: center;
 }
-
-hr {
-	width: 200px;
-	height: 1px;
-	position: relative;
-}
-
-/*ul {
-	text-align: center;
-	list-style-type: none;
-}*/
