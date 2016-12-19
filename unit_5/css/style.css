@@ -36,12 +36,9 @@ header section {
 
 h1 {
 	color: #971f41;
-	text-align: center;
 	font-family: 'Old Standard TT', serif;
 	font-weight: bold;
 	font-size: 4.125em;
-	clear: both;
-	width: 15em;
 	margin: 1em auto;
 }
 
@@ -80,23 +77,25 @@ header.lander section p {
  }
 
 
-header.lander {
+.lander {
 	background-image: url("../images/pexels-black-white-deskitems-photo-edited.jpg") /*no-repeat center center scroll*/;
 	background-size: cover;
 	height: 730px;
-	padding: 20px 0;
+	padding: 17em 0 0;
+	text-align: center;
 }
 
 ul {
 	margin: 1.5;
 	text-align: center;
 	list-style-type: none;
+	margin: auto;
 }
 
 .topic_nav li{
-	padding: 15px;
-	display: inline-block;
-
+	padding: 2em;
+	width: 16.66%;
+	float: left;
 }
 .about {
 	margin: 2em;
@@ -105,7 +104,8 @@ ul {
 .members {
 	/*width: 25em;*/
 	/*margin:2em auto;*/
- 	background-color: #eee;
+	background-color: #eee;
+	padding: 2em;
 }
 .members header {
 	font-family: 'Old Standard TT', serif;
@@ -113,10 +113,9 @@ ul {
 }
 
 .members img {
-	padding: 20px;
 	float: left;
-	width: 20em;
-	clear: right;
+	width: 50%;
+	padding-right: 2em;
 }
 
 .members a {
@@ -124,18 +123,15 @@ ul {
 }
 
 .members p {
-	width: 80%;
-	float: right;
-	clear: both;
 }
 
-aside {	
-	float: right;
-	clear: both;
+aside {
+	width: 33.33%;
+	float: left;
 }
 
 footer {
-	font-size: .5em;
+	font-size: .8em;
 	background-color: #ccc;
 	color: #fff;
 	line-height: 1em;
@@ -151,4 +147,16 @@ footer {
 	margin: 1.2em auto;
 	text-align: center;
 	font-size: 1.5em;
+}
+.wrapper {
+	width: 66.66%;
+	margin:auto;
+	float: left;
+}
+.clearfix:after,.members:after {
+	display:block;
+	clear:both;
+	height:0;
+	content:"";
+	visibility:hidden;
 }
