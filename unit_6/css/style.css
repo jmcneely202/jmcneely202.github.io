@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:700|Playfair+Display+SC:700');
+/*font-family: 'Old Standard TT', serif;
+font-family: 'Playfair Display SC', serif; .main_title*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+/*font-family: 'Montserrat', sans-serif; .support_copy*/
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #515F61;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 16px; /*16px = 1em*/
+	line-height: 1.5em;
+}
+
+header h2 {
+	font-style: italic;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Old Standard TT', serif;
+	clear: both;
+	width: 15em;
+    margin: 1em auto;
+}
+
+header section {
+	margin: 200px auto;
+}
+
+h1 {
+	color: #971f41;
+	font-family: 'Old Standard TT', serif;
+	font-weight: bold;
+	font-size: 4.125em;
+	margin: 1em auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#main_nav {
+    float: right;
+    margin: 0 20px;
+
+}
+
+#main_nav a {
+    display: inline-block;
+    padding: 10px;
+    color: #971f41;
+}
+
+img {
+	width: 100%;
+}
+
+header.lander section p {
+	text-decoration: none;
+	color: #971f41;
+	font-weight: bold;
+	border: 2px solid #971f41;
+	border-radius: 5px;
+	padding: 10px;
+    width: 10em;
+    border-width: 1px;
+    text-align: center;
+    margin: 270px auto;
+ }
+
+
+.lander {
+	background-image: url("../images/pexels-black-white-deskitems-photo-edited.jpg") /*no-repeat center center scroll*/;
+	background-size: cover;
+	height: 500px;
+	padding: 17em 0;
+	text-align: center;
+}
+
+ul {
+	margin: 1.5;
+	text-align: center;
+	list-style-type: none;
+	margin: auto;
+}
+
+.topic_nav li{
+	padding: 2em;
+	width: 16.66%;
+	float: left;
+}
+.about {
+	margin: 2em;
+
+}
+.members {
+	/*width: 25em;*/
+	/*margin:2em auto;*/
+	background-color: #eee;
+	padding: 2em;
+}
+.members header {
+	font-family: 'Old Standard TT', serif;
+	color: #971f41;
+}
+
+.members img {
+	float: left;
+	width: 50%;
+	padding-right: 2em;
+}
+
+.members a {
+	font-size: .5em;
+}
+
+.members p {
+}
+
+aside {
+	width: 33.33%;
+	float: left;
+}
+
+footer {
+	font-size: .8em;
+	background-color: #ccc;
+	color: #fff;
+	line-height: 1em;
+	padding: 10px;
+	clear: both;
+}
+
+#copyright {
+	margin: .8em 0;
+}
+.legal a {
+	display: block;
+	margin: 1.2em auto;
+	text-align: center;
+	font-size: 1.5em;
+}
+.wrapper {
+	width: 66.66%;
+	margin:auto;
+	float: left;
+}
+.clearfix:after,.members:after {
+	display:block;
+	clear:both;
+	height:0;
+	content:"";
+	visibility:hidden;
+}

@@ -28,10 +28,16 @@ header h2 {
 	clear: both;
 	width: 15em;
     margin: 1em auto;
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 header section {
 	margin: 200px auto;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 h1 {
@@ -47,16 +53,27 @@ a {
 	color: inherit;
 }
 
+.logo {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 #main_nav {
     float: right;
     margin: 0 20px;
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 
 }
 
 #main_nav a {
     display: inline-block;
     padding: 10px;
-    color: #971f41;
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 img {
@@ -65,11 +82,11 @@ img {
 
 header.lander section p {
 	text-decoration: none;
-	color: #971f41;
+	color: ##FFED74;
 	font-weight: bold;
-	border: 2px solid #971f41;
+	border: black solid;
 	border-radius: 5px;
-	padding: 10px;
+	padding: 20px;
     width: 10em;
     border-width: 1px;
     text-align: center;
@@ -80,9 +97,10 @@ header.lander section p {
 .lander {
 	background-image: url("../images/pexels-black-white-deskitems-photo-edited.jpg") /*no-repeat center center scroll*/;
 	background-size: cover;
-	height: 730px;
-	padding: 17em 0 0;
+	height: 320px;
+	padding: 17em 0;
 	text-align: center;
+    border: 1px black solid;
 }
 
 ul {
@@ -96,6 +114,9 @@ ul {
 	padding: 2em;
 	width: 16.66%;
 	float: left;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 }
 .about {
 	margin: 2em;
@@ -106,6 +127,10 @@ ul {
 	/*margin:2em auto;*/
 	background-color: #eee;
 	padding: 2em;
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+
 }
 .members header {
 	font-family: 'Old Standard TT', serif;
@@ -128,6 +153,10 @@ ul {
 aside {
 	width: 33.33%;
 	float: left;
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+
 }
 
 footer {
@@ -135,8 +164,10 @@ footer {
 	background-color: #ccc;
 	color: #fff;
 	line-height: 1em;
-	padding: 10px;
 	clear: both;
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 #copyright {
@@ -152,6 +183,9 @@ footer {
 	width: 66.66%;
 	margin:auto;
 	float: left;
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
 }
 .clearfix:after,.members:after {
 	display:block;
