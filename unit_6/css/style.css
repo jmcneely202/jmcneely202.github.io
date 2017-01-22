@@ -130,6 +130,8 @@ ul {
 	background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
+    width: 50%;
+    float: left;
 
 }
 .members header {
