@@ -23,6 +23,42 @@ body {
 	line-height: 1.5em;
 }
 
+.logo img {
+    height: auto; 
+    width: auto; 
+    max-width: 50px; 
+    max-height: 50px;
+}
+
+nav {
+    float: right;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Alegreya SC', serif;
+    font-weight: 700;
+    font-size: 1.5em
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px;
+    color: #971f41;
+}
+
+nav a:hover {
+	color: ##515F61;
+}
+
+nav a:active {
+	color: ##515F61;
+}
+
+.lander {
+	background: url("../images/pexels-black-white-deskitems-photo-edited.jpg") no-repeat center center scroll;
+	background-size: cover;
+	padding: 5em 0;
+	text-align: center;
+}
 .lander h2 {
 	font-style: italic;
 	text-align: center;
@@ -33,45 +69,12 @@ body {
     margin: 1em auto;
 }
 
-h1 {
+.lander h1 {
 	color: #971f41;
 	font-family: 'Alegreya SC', serif;
 	font-weight: bold;
 	font-size: 4.125em;
 	margin: 1em auto;
-}
-
-a {
-	text-decoration: none;
-	color: inherit;
-}
-
-.logo img {
-    height: auto; 
-    width: auto; 
-    max-width: 50px; 
-    max-height: 50px;
-}
-
-#main_nav {
-    float: right;
-    margin: 0 20px;
-    padding: 20px;
-}
-
-#main_nav a {
-    display: inline-block;
-    padding: 10px;
-    padding: 20px;
-    color: #971f41;
-}
-
-.lander {
-	background: url("../images/pexels-black-white-deskitems-photo-edited.jpg") no-repeat center center scroll;
-	background-size: cover;
-	/*height: 320px;*/
-	padding: 5em 0;
-	text-align: center;
 }
 .wrapper {
 	background: #dadee5;
@@ -80,6 +83,10 @@ a {
     
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
 ul {
 	margin: 1.5em auto;
 	text-align: center;
@@ -210,9 +217,10 @@ footer {
     }	 
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 638px){
 	#main_nav a {
     	display: block;
+    	float:left;
 	}
 	.members {
    	 	width: 96%;
