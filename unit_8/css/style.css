@@ -31,7 +31,6 @@ body {
 	clear: both;
 	width: 15em;
     margin: 1em auto;
-   /* padding: 20px;*/
 }
 
 h1 {
@@ -76,7 +75,7 @@ a {
 }
 .wrapper {
 	background: #dadee5;
-	width: 80%;
+	width: 100%;
 	margin: 3% auto;
     
 }
@@ -112,14 +111,15 @@ li {
 }
 
 .members {
-	margin: 5%;
+	margin: 2%;
 	background-color: #91abae;
 	padding: 1.5em;
     border: 3px black solid;
-    width: 40%;
+    width: 46%;
     float: left;
-
+    height: 25.88em;
 }
+
 .members h2{
 	font-family: 'Alegreya SC', serif;
 	color: #971f41;
@@ -132,10 +132,6 @@ li {
 	padding-right: 2em;
 }
 
-
-.members p {
-
-}
 .staff {
 	max-width: 100%;
 }
@@ -192,7 +188,7 @@ footer {
     height: 0;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1128px) {
 	.about li {
 		width: 80%;
     	outline-width: .5em;
@@ -200,4 +196,38 @@ footer {
     	height: 2em;
    		line-height: 2em;
 	}
+
+	.members {
+   	 	width: 96%;
+   	 	height: 20em;
+    }	 
+}
+
+@media only screen and (max-width: 723px) {
+	.members {
+   	 	height: auto;
+   	 	width: 80%;
+    }	 
+}
+
+@media only screen and (max-width: 550px){
+	#main_nav a {
+    	display: block;
+	}
+	.members {
+   	 	width: 96%;
+    }
+	.wrapper {
+		width: 100%;    
+	}
+}
+
+@media only screen and (max-width: 382px){
+	.members {
+   	 	width: 130%;
+    }
+
+    footer {
+    	width: 125%;
+    }
 }
