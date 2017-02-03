@@ -39,6 +39,15 @@ nav {
     font-size: 1.5em
 }
 
+nav a:link{
+	font-family: 'Alegreya SC', serif;
+	color:#971f41;
+	-webkit-transition:color ease-in-out .5s;
+	-moz-transition:color ease-in-out .5s;
+	-o-transition:color ease-in-out .5s;
+	transition:color ease-in-out .5s;
+}
+
 nav a {
     display: inline-block;
     padding: 20px;
@@ -56,7 +65,7 @@ nav a:active {
 .lander {
 	background: url("../images/pexels-black-white-deskitems-photo-edited.jpg") no-repeat center center scroll;
 	background-size: cover;
-	padding: 5em 0;
+	padding: 3em 0;
 	text-align: center;
 }
 .lander h2 {
@@ -79,7 +88,7 @@ nav a:active {
 .wrapper {
 	background: #dadee5;
 	width: 100%;
-	margin: 3% auto;
+	margin: auto;
     
 }
 
@@ -98,6 +107,17 @@ li {
 	width: 16.66%;
 	float: left;
     padding: 20px;
+}
+
+label{
+	font-family: 'Alegreya SC', serif;
+	color:#971f41;
+	padding:0 32px;
+	font-size: 1.5em;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: 700;
+	display: none;
 }
 
 .about {
@@ -127,10 +147,11 @@ li {
     height: 25.88em;
 }
 
-.members h2{
+.members h3{
 	font-family: 'Alegreya SC', serif;
 	color: #971f41;
 	font-weight: 700;
+	font-size: 1.5em;
 }
 
 .members img {
@@ -177,6 +198,10 @@ footer {
 	font-size: 1.5em;*/
 }
 
+#toggle{
+	display: none;
+}
+
 .clearfix:after, .staff:after {
     visibility: hidden;
     display: block;
@@ -215,19 +240,41 @@ footer {
    	 	height: auto;
    	 	width: 80%;
     }	 
+    nav{
+		display: none;
+	}
+	label{
+		display: block;
+	}
+	nav a:link{
+		display: block;
+		padding:15px;
+		margin:5px;
+	}
+
+	#toggle:checked + nav{
+		display: block;
+	}
 }
 
 @media only screen and (max-width: 638px){
-	#main_nav a {
-    	display: block;
-    	float:left;
-	}
+	
 	.members {
    	 	width: 96%;
     }
 	.wrapper {
 		width: 100%;    
 	}
+}
+
+@media only screen and (max-width: 480px){
+	.members {
+   	 	width: 130%;
+    }
+
+    footer {
+    	width: 125%;
+    }
 }
 
 @media only screen and (max-width: 382px){
